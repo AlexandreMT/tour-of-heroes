@@ -15,7 +15,7 @@ export class HeroService {
 	
 	private heroesUrl = 'api/heroes';
 
-	const httpOptions = {
+	httpOptions = {
 	  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
 	};
 
